@@ -1,0 +1,51 @@
+{
+  "files": {
+<<<<<<< HEAD
+    "main.css": "/portfolio/static/css/main.ed6aa360.chunk.css",
+    "main.js": "/portfolio/static/js/main.050ce9a9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.050ce9a9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b649af6b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b649af6b.js.map",
+    "static/js/2.a227c923.chunk.js": "/portfolio/static/js/2.a227c923.chunk.js",
+    "static/js/2.a227c923.chunk.js.map": "/portfolio/static/js/2.a227c923.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ae76f6a033502dd9b0c4d998bc6b8cda.js": "/portfolio/precache-manifest.ae76f6a033502dd9b0c4d998bc6b8cda.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.ed6aa360.chunk.css.map": "/portfolio/static/css/main.ed6aa360.chunk.css.map",
+    "static/js/2.a227c923.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a227c923.chunk.js.LICENSE.txt",
+    "static/media/Nders.png": "/portfolio/static/media/Nders.260fcd70.png",
+    "static/media/North West Investments Security Inc.png": "/portfolio/static/media/North West Investments Security Inc.4add67de.png",
+    "static/media/rsz_esi-laptop.png": "/portfolio/static/media/rsz_esi-laptop.17d095ff.png",
+    "static/media/true-radiance.png": "/portfolio/static/media/true-radiance.faeb4d14.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b649af6b.js",
+    "static/js/2.a227c923.chunk.js",
+    "static/css/main.ed6aa360.chunk.css",
+    "static/js/main.050ce9a9.chunk.js"
+=======
+    "main.css": "/my-portfolio/static/css/main.6d61b76f.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.636781f8.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.636781f8.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
+    "static/js/2.a227c923.chunk.js": "/my-portfolio/static/js/2.a227c923.chunk.js",
+    "static/js/2.a227c923.chunk.js.map": "/my-portfolio/static/js/2.a227c923.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.a85c02c959d0643d64eeb8587bec04df.js": "/my-portfolio/precache-manifest.a85c02c959d0643d64eeb8587bec04df.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.6d61b76f.chunk.css.map": "/my-portfolio/static/css/main.6d61b76f.chunk.css.map",
+    "static/js/2.a227c923.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.a227c923.chunk.js.LICENSE.txt",
+    "static/media/Nders.png": "/my-portfolio/static/media/Nders.260fcd70.png",
+    "static/media/North West Investments Security Inc.png": "/my-portfolio/static/media/North West Investments Security Inc.cf783d4d.png",
+    "static/media/rsz_esi-laptop.png": "/my-portfolio/static/media/rsz_esi-laptop.6a3cb3de.png",
+    "static/media/true-radiance.png": "/my-portfolio/static/media/true-radiance.b41bec29.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b00eace.js",
+    "static/js/2.a227c923.chunk.js",
+    "static/css/main.6d61b76f.chunk.css",
+    "static/js/main.636781f8.chunk.js"
+>>>>>>> master
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.291db077.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.8d1e6675.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.8d1e6675.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
+    "static/js/2.90b8a9b6.chunk.js": "/my-portfolio/static/js/2.90b8a9b6.chunk.js",
+    "static/js/2.90b8a9b6.chunk.js.map": "/my-portfolio/static/js/2.90b8a9b6.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.08621717adc877e6c1435d920badd33c.js": "/my-portfolio/precache-manifest.08621717adc877e6c1435d920badd33c.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.291db077.chunk.css.map": "/my-portfolio/static/css/main.291db077.chunk.css.map",
+    "static/js/2.90b8a9b6.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.90b8a9b6.chunk.js.LICENSE.txt",
+    "static/media/Nders.png": "/my-portfolio/static/media/Nders.260fcd70.png",
+    "static/media/North West Investments Security Inc.png": "/my-portfolio/static/media/North West Investments Security Inc.4add67de.png",
+    "static/media/Ollo's Barbershop.png": "/my-portfolio/static/media/Ollo's Barbershop.97d442f5.png",
+    "static/media/App.css": "/my-portfolio/static/media/hero-img.6097aeb1.jpg",
+    "static/media/rsz_esi-laptop.png": "/my-portfolio/static/media/rsz_esi-laptop.17d095ff.png",
+    "static/media/true-radiance.png": "/my-portfolio/static/media/true-radiance.faeb4d14.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b00eace.js",
+    "static/js/2.90b8a9b6.chunk.js",
+    "static/css/main.291db077.chunk.css",
+    "static/js/main.8d1e6675.chunk.js"
+  ]
+}
