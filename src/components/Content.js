@@ -4,7 +4,7 @@ import esi from "./images/projects/rsz_esi-laptop.png";
 import nwisi from "./images/projects/North West Investments Security Inc.png";
 import tr from "./images/projects/true-radiance.png";
 import nders from "./images/projects/Nders.png";
-import ollos from "./images/projects/Ollo's Barbershop.png";
+import ollos from "./images/projects/Ollo.png";
 
 const Content = () => {
   const workTypes = [
