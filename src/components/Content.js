@@ -214,7 +214,7 @@ const Content = () => {
                 <div className="col-md-6" style={{ textAlign: "center" }}>
                   <figure>
                     <a
-                      href="https://drive.google.com/file/d/1nROYrcMp6J4cv4hogTMAPfbaitGabhju/preview"
+                      href="https://drive.google.com/uc?id=1nROYrcMp6J4cv4hogTMAPfbaitGabhju"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -228,7 +228,7 @@ const Content = () => {
                 <div className="col-md-6" style={{ textAlign: "center" }}>
                   <figure>
                     <a
-                      href="https://drive.google.com/file/d/1kydlM-wgCbssIak-3e9n2CnNWKNL43Y1/preview"
+                      href="https://drive.google.com/uc?id=1kydlM-wgCbssIak-3e9n2CnNWKNL43Y1"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -242,7 +242,7 @@ const Content = () => {
                 <div className="col-md-6" style={{ textAlign: "center" }}>
                   <figure>
                     <a
-                      href="https://drive.google.com/file/d/1PGMgAs2-VBaDVVBN5iX7r1hvyYQmlZdx/preview"
+                      href="https://drive.google.com/uc?id=1PGMgAs2-VBaDVVBN5iX7r1hvyYQmlZdx"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -254,7 +254,7 @@ const Content = () => {
                 <div className="col-md-6" style={{ textAlign: "center" }}>
                   <figure>
                     <a
-                      href="https://drive.google.com/file/d/1tezld61ucj4xgEtyUr8-syJAorIftXz-/preview"
+                      href="https://drive.google.com/uc?id=1iCkAYXjl3p4hphcaSHK2Rki3o4XyWxn8/"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
