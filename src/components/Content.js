@@ -254,7 +254,7 @@ const Content = () => {
                 <div className="col-md-6" style={{ textAlign: "center" }}>
                   <figure>
                     <a
-                      href="https://drive.google.com/uc?id=1iCkAYXjl3p4hphcaSHK2Rki3o4XyWxn8/"
+                      href="https://drive.google.com/uc?id=1iCkAYXjl3p4hphcaSHK2Rki3o4XyWxn8"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
