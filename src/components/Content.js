@@ -5,6 +5,7 @@ import nwisi from "./images/projects/North West Investments Security Inc.png";
 import tr from "./images/projects/true-radiance.png";
 import nders from "./images/projects/Nders.png";
 import ollos from "./images/projects/Ollo.png";
+import devdynamics from "./images/projects/Coming Soon.png";
 
 const Content = () => {
   const workTypes = [
@@ -12,8 +13,9 @@ const Content = () => {
     "Flyers & Business Cards Designs",
   ];
   const [myWorkType, setMyWorkType] = useState("");
+  const [showDiv, setShowDiv] = useState(true);
 
-  //const [showAll, setShowall] = useState(true);
+
   return (
     <div className="container content">
       <div className="row about-me-content" id="about-me">
@@ -153,30 +155,33 @@ const Content = () => {
           <div className="mb-5" style={{ "textAlign": "center", "fontStyle": "italic" }}>Click on the two options below to view some of my work.</div>
         </div>
 
-        <div className="col-md-12 btn-group btn-toggle ">
+        <div className="col-md-12 btn-group">
           {workTypes.map((workType) => (
             <button
               type="button"
-              className="btn btn-lg btn-default"
+              className="btn btn-lg btn-default col-md-12 mb-5"
               key={workType}
-              onClick={() => setMyWorkType(workType)}
+              onClick={() => {
+                setMyWorkType(workType);
+                setShowDiv(false)
+              }}
             >
               {workType === "Custom Websites & WordPress Themes" && (
                 <div>
-                  <span style={{ fontWeight: "bold" }}>
-                    Web Design & Development
+                  <span style={{ fontWeight: "bold" }} className="workType">
+                    Website Development
                   </span>
                   <br />{" "}
-                  <span style={{ fontSize: "85%" }}>
+                  <span style={{ fontSize: "85%" }} className="workTypeDetails">
                     Custom-Built Websites & Custom-Built WordPress Themes
                   </span>
                 </div>
               )}
               {workType === "Flyers & Business Cards Designs" && (
                 <div>
-                  <span style={{ fontWeight: "bold" }}>Graphic Designs</span>
+                  <span style={{ fontWeight: "bold" }} className="workType">Graphics Designs</span>
                   <br />{" "}
-                  <span style={{ fontSize: "85%" }}>
+                  <span style={{ fontSize: "85%" }} className="workTypeDetails">
                     Logo, Flyer/Poster & Business Card Designs
                   </span>
                 </div>
@@ -184,7 +189,6 @@ const Content = () => {
             </button>
           ))}
         </div>
-
         <div className="row latest-work-img mt-5">
           {myWorkType === "Custom Websites & WordPress Themes" && (
             <div className="websites">
@@ -202,6 +206,21 @@ const Content = () => {
                       <img src={esi} alt="esi-screen-of-website" width="80%" />
                     </a>
                     <figcaption>Eco-solutions Furniture Inc.</figcaption>
+                  </figure>
+                </div>
+                <div
+                  className="col-md-6 websites"
+                  style={{ textAlign: "center" }}
+                >
+                  <figure>
+                    <a
+                      href="/#"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img src={devdynamics} alt="devdynamics-enterprise-coming-soon" width="80%" style={{ "border": "1px solid #A8A8A8" }} />
+                    </a>
+                    <figcaption>DevDynamics Enterprise.</figcaption>
                   </figure>
                 </div>
               </div>
@@ -267,6 +286,45 @@ const Content = () => {
             </div>
           )}
         </div>
+
+        {/*Div that is hidden on click*/}
+        {showDiv === true && (
+          <div className="hide-div">
+            <div className="row">
+              <div
+                className="col-md-6 websites"
+                style={{ textAlign: "center" }}
+              >
+                <figure>
+                  <a
+                    href="https://ecosolutionsfurniture.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img src={esi} alt="esi-screen-of-website" width="80%" />
+                  </a>
+                  <figcaption>Eco-solutions Furniture Inc.</figcaption>
+                </figure>
+              </div>
+              <div
+                className="col-md-6 websites"
+                style={{ textAlign: "center" }}
+              >
+                <figure>
+                  <a
+                    href="/#"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img src={devdynamics} alt="devdynamics-enterprise-coming-soon" width="80%" style={{ "border": "1px solid #A8A8A8" }} />
+                  </a>
+                  <figcaption>DevDynamics Enterprise.</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        )}
+
       </div>
     </div>
   );
