@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="container-fluid footer">
       <div className="row mt-5">
         <div className="col-md-12">
-          <div className="name">Devon Wintz</div>
+          <div className="name mt-5">Devon Wintz</div>
         </div>
       </div>
       <div className="row quote">
@@ -17,7 +17,7 @@ const Footer = () => {
           <hr />
         </div>
       </div>
-      <div className="row">
+      <div className="row mb-4">
         <div className="col-md-6">
           &copy; All Rights Reserved By Devon Wintz
         </div>
