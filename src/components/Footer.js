@@ -1,6 +1,7 @@
 import React from "react";
 import fb_icon from "./images/social-media-icons/fb-icon.png";
 import linkedin_icon from "./images/social-media-icons/linkedin-icon.png";
+import github_icon from "./images/social-media-icons/github-icon.png";
 //import twitter_icon from "./images/social-media-icons/twitter-icon.png";
 const Footer = () => {
   return (
@@ -22,14 +23,17 @@ const Footer = () => {
           &copy; All Rights Reserved By Devon Wintz
         </div>
         <div className="col-md-6 social-media-links">
-          <a href="/https://www.facebook.com/devon.winston.37">
-            <img src={fb_icon} alt="fb-icon" width="4%" />
+          <a href="https://www.facebook.com/devon.winston.37">
+            <img src={fb_icon} alt="fb-icon" width="3%" height="20" />
           </a>
           {/* <a href="/#" className="ml-2">
             <img src={twitter_icon} alt="twitter-icon" width="4%" />
           </a> */}
-          <a href="/https://www.linkedin.com/in/devon-wintz-719984104/" className="ml-2">
-            <img src={linkedin_icon} alt="linkedin-icon" width="3%" />
+          <a href="https://www.linkedin.com/in/devon-wintz-719984104" className="ml-2">
+            <img src={linkedin_icon} alt="linkedin-icon" width="3%" height="20" />
+          </a>
+          <a href="https://github.com/devonwintz" className="ml-2">
+            <img src={github_icon} alt="github-icon" width="3%" height="25" />
           </a>
         </div>
       </div>
