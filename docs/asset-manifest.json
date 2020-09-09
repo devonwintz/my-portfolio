@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.02030761.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.9cdd3435.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.9cdd3435.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.a19bce9e.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.ce5fa001.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.ce5fa001.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
-    "static/js/2.83ceec39.chunk.js": "/my-portfolio/static/js/2.83ceec39.chunk.js",
-    "static/js/2.83ceec39.chunk.js.map": "/my-portfolio/static/js/2.83ceec39.chunk.js.map",
+    "static/js/2.684a71e0.chunk.js": "/my-portfolio/static/js/2.684a71e0.chunk.js",
+    "static/js/2.684a71e0.chunk.js.map": "/my-portfolio/static/js/2.684a71e0.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.a9f22248116b8076c378cb5bbd24a909.js": "/my-portfolio/precache-manifest.a9f22248116b8076c378cb5bbd24a909.js",
+    "precache-manifest.9f8e45a9fb6fcf18eb90ec1d9a01e602.js": "/my-portfolio/precache-manifest.9f8e45a9fb6fcf18eb90ec1d9a01e602.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.02030761.chunk.css.map": "/my-portfolio/static/css/main.02030761.chunk.css.map",
-    "static/js/2.83ceec39.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.83ceec39.chunk.js.LICENSE.txt",
+    "static/css/main.a19bce9e.chunk.css.map": "/my-portfolio/static/css/main.a19bce9e.chunk.css.map",
+    "static/js/2.684a71e0.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.684a71e0.chunk.js.LICENSE.txt",
     "static/media/Coming Soon.png": "/my-portfolio/static/media/Coming Soon.0aaca945.png",
     "static/media/Nders.png": "/my-portfolio/static/media/Nders.260fcd70.png",
     "static/media/North West Investments Security Inc.png": "/my-portfolio/static/media/North West Investments Security Inc.4add67de.png",
     "static/media/Ollo.png": "/my-portfolio/static/media/Ollo.504a890a.png",
+    "static/media/github-icon.png": "/my-portfolio/static/media/github-icon.ae646a94.png",
     "static/media/App.css": "/my-portfolio/static/media/hero-img-mobile-screen.d6016f62.png",
     "static/media/rsz_esi-laptop.png": "/my-portfolio/static/media/rsz_esi-laptop.17d095ff.png",
     "static/media/true-radiance.png": "/my-portfolio/static/media/true-radiance.faeb4d14.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8b00eace.js",
-    "static/js/2.83ceec39.chunk.js",
-    "static/css/main.02030761.chunk.css",
-    "static/js/main.9cdd3435.chunk.js"
+    "static/js/2.684a71e0.chunk.js",
+    "static/css/main.a19bce9e.chunk.css",
+    "static/js/main.ce5fa001.chunk.js"
   ]
 }
