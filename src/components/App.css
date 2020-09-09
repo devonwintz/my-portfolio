@@ -62,7 +62,7 @@ body {
 .header {
     position: relative;
     width: 100%;
-    background: url("./components/images/hero-img-mobile-screen.png") no-repeat center center fixed; 
+    background: url("./images/hero-img-mobile-screen.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
