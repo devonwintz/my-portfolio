@@ -4,7 +4,7 @@ import "./script";
 import Header from "./Header";
 import Content from "./Content";
 import Footer from "./Footer";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (

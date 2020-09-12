@@ -1,0 +1,64 @@
+/*Main Content*/
+.content {
+    text-align: justify;
+    &:first-letter {
+        font-size: 250%;
+        font-weight: bold;
+        line-height: normal;
+    }
+    a{
+        text-decoration: none;
+        color: #000000
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+.active,
+btn:hover {
+    background-color: #1c2331;
+    color: #ffffff !important;
+}
+
+.link:hover {
+    font-weight: bold;
+}
+
+button:hover {
+    color: #ffffff !important;
+    background-color: #1c2331;
+}
+
+.heading {
+    font-size: 175%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.sub-heading {
+    font-size: 120%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.about-me-content {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.about-me-progress {
+    text-align: justify;
+}
+
+.latest-work img:hover {
+    width: 100%;
+    cursor: pointer;
+}
+
+.skills {
+    display: none;
+}
+
+/*End of Main Content*/
