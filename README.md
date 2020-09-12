@@ -1,2 +1,2 @@
-###My Porfolio
-Visit my portfolio [here]('https://devonwintz.github.io/my-portfolio/').
+### My Porfolio
+Visit my portfolio https://devonwintz.github.io/my-portfolio/
