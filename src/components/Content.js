@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./script";
 import esi from "./images/projects/rsz_esi-laptop.png";
+import businessWebsiteTemplate from "./images/projects/simple-business-template1.png";
 import nwisi from "./images/projects/North West Investments Security Inc.png";
 import tr from "./images/projects/true-radiance.png";
 import nders from "./images/projects/Nders.png";
@@ -14,7 +15,6 @@ const Content = () => {
   ];
   const [myWorkType, setMyWorkType] = useState("");
   const [showDiv, setShowDiv] = useState(true);
-
 
   return (
     <div className="container content">
@@ -55,7 +55,7 @@ const Content = () => {
             Skills
             <hr style={{ backgroundColor: "#000000" }} />
           </div>
-          <span>HTML</span>
+          <span>HTML5</span>
           <div className="progress mb-2" style={{ textAlign: "center" }}>
             <div
               className="progress-bar"
@@ -73,7 +73,7 @@ const Content = () => {
             </div>
           </div>
 
-          <span>CSS</span>
+          <span>CSS3/SASS/SCSS</span>
           <div className="progress mb-2" style={{ textAlign: "center" }}>
             <div
               className="progress-bar"
@@ -91,7 +91,7 @@ const Content = () => {
             </div>
           </div>
 
-          <span>JavaScript</span>
+          <span>JavaScript/ReactJs/VueJS</span>
           <div className="progress mb-2" style={{ textAlign: "center" }}>
             <div
               className="progress-bar"
@@ -109,7 +109,7 @@ const Content = () => {
             </div>
           </div>
 
-          <span>CMS: WordPress, Drupal, Joomla</span>
+          <span>WordPress/Drupal/Joomla</span>
           <div className="progress mb-2" style={{ textAlign: "center" }}>
             <div
               className="progress-bar"
@@ -152,7 +152,12 @@ const Content = () => {
             My Work
             <hr style={{ backgroundColor: "#000000" }} />
           </div>
-          <div className="mb-5" style={{ "textAlign": "center", "fontStyle": "italic" }}>Click on the two options below to view some of my work.</div>
+          <div
+            className="mb-5"
+            style={{ textAlign: "center", fontStyle: "italic" }}
+          >
+            Click on the two options below to view some of my work.
+          </div>
         </div>
 
         <div className="col-md-12 btn-group">
@@ -163,7 +168,7 @@ const Content = () => {
               key={workType}
               onClick={() => {
                 setMyWorkType(workType);
-                setShowDiv(false)
+                setShowDiv(false);
               }}
             >
               {workType === "Custom Websites & WordPress Themes" && (
@@ -179,7 +184,9 @@ const Content = () => {
               )}
               {workType === "Flyers & Business Cards Designs" && (
                 <div>
-                  <span style={{ fontWeight: "bold" }} className="workType">Graphics Designs</span>
+                  <span style={{ fontWeight: "bold" }} className="workType">
+                    Graphics Designs
+                  </span>
                   <br />{" "}
                   <span style={{ fontSize: "85%" }} className="workTypeDetails">
                     Logo, Flyer/Poster & Business Card Designs
@@ -208,17 +215,39 @@ const Content = () => {
                     <figcaption>Eco-solutions Furniture Inc.</figcaption>
                   </figure>
                 </div>
+
                 <div
                   className="col-md-6 websites"
                   style={{ textAlign: "center" }}
                 >
                   <figure>
                     <a
-                      href="/#"
+                      href="https://devonwintz.github.io/simple-business-website-template/"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      <img src={devdynamics} alt="devdynamics-enterprise-coming-soon" width="80%" style={{ "border": "1px solid #A8A8A8" }} />
+                      <img
+                        src={businessWebsiteTemplate}
+                        alt="simple-business-website-template"
+                        width="80%"
+                      />
+                    </a>
+                    <figcaption>Simple Business Website Template.</figcaption>
+                  </figure>
+                </div>
+
+                <div
+                  className="col-md-6 websites"
+                  style={{ textAlign: "center" }}
+                >
+                  <figure>
+                    <a href="/#" rel="noopener noreferrer" target="_blank">
+                      <img
+                        src={devdynamics}
+                        alt="devdynamics-enterprise-coming-soon"
+                        width="80%"
+                        style={{ border: "1px solid #A8A8A8" }}
+                      />
                     </a>
                     <figcaption>DevDynamics Enterprise.</figcaption>
                   </figure>
@@ -312,19 +341,22 @@ const Content = () => {
               >
                 <figure>
                   <a
-                    href="/#"
+                    href="https://devonwintz.github.io/simple-business-website-template/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <img src={devdynamics} alt="devdynamics-enterprise-coming-soon" width="80%" style={{ "border": "1px solid #A8A8A8" }} />
+                    <img
+                      src={businessWebsiteTemplate}
+                      alt="simple-business-website-template"
+                      width="80%"
+                    />
                   </a>
-                  <figcaption>DevDynamics Enterprise.</figcaption>
+                  <figcaption>Simple Business Website Template.</figcaption>
                 </figure>
               </div>
             </div>
           </div>
         )}
-
       </div>
     </div>
   );
