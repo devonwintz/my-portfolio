@@ -60,10 +60,9 @@ body {
   text-decoration: none;
 }
 
-.active,
-btn:hover {
-  background-color: #1c2331;
-  color: #ffffff !important;
+.active a:hover,
+.btn:hover a:hover {
+  color: #ffffff;
 }
 
 .link:hover {
