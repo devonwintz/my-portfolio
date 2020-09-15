@@ -16,9 +16,10 @@
 }
 
 .active,
-btn:hover {
-    background-color: #1c2331;
-    color: #ffffff !important;
+.btn:hover{
+    a:hover{
+        color: #ffffff;
+    }
 }
 
 .link:hover {

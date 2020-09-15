@@ -41,12 +41,12 @@ const Content = () => {
           <br />
           <button className="btn mt-5" style={{ borderColor: "#1c2331" }}>
             <a
-              href="https://drive.google.com/file/d/1R0YeP2WiEFDYXr96UqSCSQVrzQfQ6u5h/view?usp=sharing++"
+              href="https://drive.google.com/file/d/1LzVi4Vxggev6NDZ3baTptDu6gnPxH1cf/view?usp=sharing"
               download
               rel="noopener noreferrer"
               target="_blank"
             >
-              Download CV
+              Download My Resume
             </a>
           </button>
         </div>
