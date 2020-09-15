@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./script";
 import esi from "./images/projects/rsz_esi-laptop.png";
-import businessWebsiteTemplate from "./images/projects/simple-business-website-template1.png";
+import businessWebsiteTemplate from "./images/projects/Simple-Business-Website-Template-New.png";
 import nwisi from "./images/projects/North West Investments Security Inc.png";
 import tr from "./images/projects/true-radiance.png";
 import nders from "./images/projects/Nders.png";
