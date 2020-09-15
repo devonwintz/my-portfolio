@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.209e41f1.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.3557b676.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.3557b676.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.77765b24.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.77765b24.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
     "static/js/2.9ee42b00.chunk.js": "/my-portfolio/static/js/2.9ee42b00.chunk.js",
     "static/js/2.9ee42b00.chunk.js.map": "/my-portfolio/static/js/2.9ee42b00.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.5af9bb92fe3ac2c0ac6e0af7aec8d261.js": "/my-portfolio/precache-manifest.5af9bb92fe3ac2c0ac6e0af7aec8d261.js",
+    "precache-manifest.8179dc81b2bbca29cedae6405aca9ddd.js": "/my-portfolio/precache-manifest.8179dc81b2bbca29cedae6405aca9ddd.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/main.209e41f1.chunk.css.map": "/my-portfolio/static/css/main.209e41f1.chunk.css.map",
     "static/js/2.9ee42b00.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.9ee42b00.chunk.js.LICENSE.txt",
@@ -16,16 +16,16 @@
     "static/media/Nders.png": "/my-portfolio/static/media/Nders.260fcd70.png",
     "static/media/North West Investments Security Inc.png": "/my-portfolio/static/media/North West Investments Security Inc.4add67de.png",
     "static/media/Ollo.png": "/my-portfolio/static/media/Ollo.504a890a.png",
+    "static/media/Simple-Business-Website-Template-New.png": "/my-portfolio/static/media/Simple-Business-Website-Template-New.728248a7.png",
     "static/media/github-icon.png": "/my-portfolio/static/media/github-icon.ae646a94.png",
     "static/media/App.css": "/my-portfolio/static/media/hero-img-mobile-screen.d6016f62.png",
     "static/media/rsz_esi-laptop.png": "/my-portfolio/static/media/rsz_esi-laptop.17d095ff.png",
-    "static/media/simple-business-website-template1.png": "/my-portfolio/static/media/simple-business-website-template1.64e3100f.png",
     "static/media/true-radiance.png": "/my-portfolio/static/media/true-radiance.faeb4d14.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8b00eace.js",
     "static/js/2.9ee42b00.chunk.js",
     "static/css/main.209e41f1.chunk.css",
-    "static/js/main.3557b676.chunk.js"
+    "static/js/main.77765b24.chunk.js"
   ]
 }
