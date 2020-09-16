@@ -1,14 +1,61 @@
 import React, { useState } from "react";
+//Components
+import WebProjectImage from "./Projects/ProjectImages";
+import GraphicsProjectImage from "./Projects/ProjectImages";
+//Includes
 import "./script";
+//---Websites Images---
 import esi from "./images/projects/rsz_esi-laptop.png";
 import businessWebsiteTemplate from "./images/projects/Simple-Business-Website-Template-New.png";
+import devdynamics from "./images/projects/Coming Soon.png";
+//---Graphics Design Images---
 import nwisi from "./images/projects/North West Investments Security Inc.png";
 import tr from "./images/projects/true-radiance.png";
 import nders from "./images/projects/Nders.png";
 import ollos from "./images/projects/Ollo.png";
-import devdynamics from "./images/projects/Coming Soon.png";
 
-const Content = () => {
+const Content = (props) => {
+  let graphicProjectImageArr = [
+    <GraphicsProjectImage
+      src={nwisi}
+      url="https://drive.google.com/uc?id=1nROYrcMp6J4cv4hogTMAPfbaitGabhju"
+      title="North West Investments Security Inc. (Flyer)"
+    />,
+    <GraphicsProjectImage
+      src={nders}
+      url="https://drive.google.com/uc?id=1PGMgAs2-VBaDVVBN5iX7r1hvyYQmlZdx"
+      title="NDERS (Logo)"
+    />,
+    <GraphicsProjectImage
+      src={tr}
+      url="https://drive.google.com/uc?id=1kydlM-wgCbssIak-3e9n2CnNWKNL43Y1"
+      title="True Radiance: Makeup Artist (Business Card)"
+    />,
+    <GraphicsProjectImage
+      src={ollos}
+      url="Ollo's Barbershop (Business Card)"
+      title="Ollo's Barbershop (Business Card)"
+    />,
+  ];
+
+  let webProjectImgArr = [
+    <WebProjectImage
+      src={esi}
+      url="https://ecosolutionsfurniture.com"
+      title="Eco-Solutions Furniture Inc."
+    />,
+    <WebProjectImage
+      src={businessWebsiteTemplate}
+      url="https://devonwintz.github.io/simple-business-website-template/"
+      title="Simple Business Website Template"
+    />,
+    <WebProjectImage
+      src={devdynamics}
+      url="/#"
+      title="DevDynamics Enterprise"
+    />,
+  ];
+
   const workTypes = [
     "Custom Websites & WordPress Themes",
     "Flyers & Business Cards Designs",
@@ -200,58 +247,13 @@ const Content = () => {
           {myWorkType === "Custom Websites & WordPress Themes" && (
             <div className="websites">
               <div className="row">
-                <div
-                  className="col-md-6 websites"
-                  style={{ textAlign: "center" }}
-                >
-                  <figure>
-                    <a
-                      href="https://ecosolutionsfurniture.com"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <img src={esi} alt="esi-screen-of-website" width="80%" />
-                    </a>
-                    <figcaption>Eco-solutions Furniture Inc.</figcaption>
-                  </figure>
-                </div>
-
-                <div
-                  className="col-md-6 websites"
-                  style={{ textAlign: "center" }}
-                >
-                  <figure>
-                    <a
-                      href="https://devonwintz.github.io/simple-business-website-template/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <img
-                        src={businessWebsiteTemplate}
-                        alt="simple-business-website-template"
-                        width="80%"
-                      />
-                    </a>
-                    <figcaption>Simple Business Website Template.</figcaption>
-                  </figure>
-                </div>
-
-                <div
-                  className="col-md-6 websites"
-                  style={{ textAlign: "center" }}
-                >
-                  <figure>
-                    <a href="/#" rel="noopener noreferrer" target="_blank">
-                      <img
-                        src={devdynamics}
-                        alt="devdynamics-enterprise-coming-soon"
-                        width="80%"
-                        style={{ border: "1px solid #A8A8A8" }}
-                      />
-                    </a>
-                    <figcaption>DevDynamics Enterprise.</figcaption>
-                  </figure>
-                </div>
+                {webProjectImgArr.map((item, index) => {
+                  return (
+                    <div key={index} className="col-md-6 websites">
+                      {item}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -259,58 +261,13 @@ const Content = () => {
           {myWorkType === "Flyers & Business Cards Designs" && (
             <div className="flyers-business-cards">
               <div className="row">
-                <div className="col-md-6" style={{ textAlign: "center" }}>
-                  <figure>
-                    <a
-                      href="https://drive.google.com/uc?id=1nROYrcMp6J4cv4hogTMAPfbaitGabhju"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <img src={nwisi} alt="nwisi-flyer" width="80%" />
-                    </a>
-                    <figcaption>
-                      North West Investments Security Inc. (Flyer)
-                    </figcaption>
-                  </figure>
-                </div>
-                <div className="col-md-6" style={{ textAlign: "center" }}>
-                  <figure>
-                    <a
-                      href="https://drive.google.com/uc?id=1kydlM-wgCbssIak-3e9n2CnNWKNL43Y1"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <img src={tr} alt="tr-business-card" width="80%" />
-                    </a>
-                    <figcaption>
-                      True Radiance: Makeup Artist (Business Card)
-                    </figcaption>
-                  </figure>
-                </div>
-                <div className="col-md-6" style={{ textAlign: "center" }}>
-                  <figure>
-                    <a
-                      href="https://drive.google.com/uc?id=1PGMgAs2-VBaDVVBN5iX7r1hvyYQmlZdx"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <img src={nders} alt="nders-logo" width="80%" />
-                    </a>
-                    <figcaption>NDERS (Logo)</figcaption>
-                  </figure>
-                </div>
-                <div className="col-md-6" style={{ textAlign: "center" }}>
-                  <figure>
-                    <a
-                      href="https://drive.google.com/uc?id=1iCkAYXjl3p4hphcaSHK2Rki3o4XyWxn8"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <img src={ollos} alt="ollo's-business-card" width="80%" />
-                    </a>
-                    <figcaption>Ollo's Barbershop (Business Card)</figcaption>
-                  </figure>
-                </div>
+                {graphicProjectImageArr.map((item, index) => {
+                  return (
+                    <div key={index} className="col-md-6 websites">
+                      {item}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -320,40 +277,13 @@ const Content = () => {
         {showDiv === true && (
           <div className="hide-div">
             <div className="row">
-              <div
-                className="col-md-6 websites"
-                style={{ textAlign: "center" }}
-              >
-                <figure>
-                  <a
-                    href="https://ecosolutionsfurniture.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <img src={esi} alt="esi-screen-of-website" width="80%" />
-                  </a>
-                  <figcaption>Eco-solutions Furniture Inc.</figcaption>
-                </figure>
-              </div>
-              <div
-                className="col-md-6 websites"
-                style={{ textAlign: "center" }}
-              >
-                <figure>
-                  <a
-                    href="https://devonwintz.github.io/simple-business-website-template/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <img
-                      src={businessWebsiteTemplate}
-                      alt="simple-business-website-template"
-                      width="80%"
-                    />
-                  </a>
-                  <figcaption>Simple Business Website Template.</figcaption>
-                </figure>
-              </div>
+              {webProjectImgArr.map((item, index) => {
+                return (
+                  <div key={index} className="col-md-6 websites">
+                    {item}
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
