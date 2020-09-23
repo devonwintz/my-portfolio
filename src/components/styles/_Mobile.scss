@@ -1,62 +1,71 @@
-@media only screen and (max-width: 600px) {
-    /*Header*/
+@media screen and (max-width: 767px) {
+  /*Header*/
 
-    .header .full-height {
-        height: 65vh;
-    }
-    .header .full-height {
-        font-size: 115%;
-    }
-    /*End of Header*/
- 
+  .header .full-height {
+    height: 65vh;
+  }
+  .header .full-height {
+    font-size: 115%;
+  }
+  .hero-text .my-name {
+    font-size: 250%;
+  }
+  .navbar .navbar-brand {
+    font-size: 170%;
+  }
+  .navbar-nav{
+    background-color: rgba(28, 35, 49, 0.7);
+  }
+  .hero-text {
+    margin-top: 18%;
+  }
+  /*End of Header*/
 
-    /*Main Content (Body)*/
-    .latest-work img {
-        width: 100%;
-        img:hover {
-            width: 100% !important;
-        }
-        .link {
-            display: none;
-        }
+  /*Main Content (Body)*/
+  .latest-work img {
+    width: 100%;
+    img:hover {
+      width: 100% !important;
     }
-    .container {
-        .about-me-heading {
-            margin-top: 5%;
-            text-align: center;
-        }
-        .about-me-content {
-            margin-top: 5%;
-        }
-        .about-me-progress .skills {
-            font-size: 130%;
-            font-weight: bold;
-            text-align: center;
-            display: block;
-        }
-        .about-me-progress {
-            margin-top: 5%;
-        }
+    .link {
+      display: none;
     }
+  }
+  .container {
+    .about-me-heading {
+      margin-top: 5%;
+      text-align: center;
+    }
+    .about-me-content {
+      margin-top: 5%;
+    }
+    .about-me-progress .skills {
+      font-size: 130%;
+      font-weight: bold;
+      text-align: center;
+      display: block;
+    }
+    .about-me-progress {
+      margin-top: 5%;
+    }
+  }
 
-    .workTypeDetails{
-        display: none;
-    }
-    .workType{
-        font-weight: normal !important;
-    }
-    /*End of Main Content*/
+  .workTypeDetails {
+    display: none;
+  }
+  .workType {
+    font-weight: normal !important;
+  }
+  /*End of Main Content*/
 
-
-    /*Footer*/
-    .social-media-links img {
-        width: 8%;
-        margin: 5%;
-    }
-    .container-fluid .footer {
-        position: relative;
-    }
-    /*End of Footer*/
-
-
+  /*Footer*/
+  .social-media-links img {
+    width: 7%;
+    margin: 5%;
+  }
+  .container-fluid .footer {
+    position: relative;
+  }
+  /*End of Footer*/
 }
+
