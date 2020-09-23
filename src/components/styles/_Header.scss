@@ -1,35 +1,51 @@
 /*Header/Hero Area*/
 .header {
-    position: relative;
-    width: 100%;
-    background: url("../images/hero-img-mobile-screen.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    background-color: #f8f8ff;
-    text-align: center;
-    font-size: 125%;
-    overflow: hidden;
-    height: 100vh;
+  position: relative;
+  width: 100%;
+  background: url("../images/hero-img-mobile-screen.png") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-color: #f8f8ff;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 125%;
+  overflow: hidden;
+  height: 100vh;
+
+  .navbar-brand {
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    &:hover {
+      font-weight: bold;
+      color: red;
+    }
+  }
 }
 
-.hero-text{
-    margin-top: 10%;
-    color: #ffffff;
+.hero-text {
+  margin-top: 5%;
+  color: #ffffff;
 }
 
 .my-name {
-    font-family: "Anton", sans-serif;
-    font-size: 350%;
+  font-family: "Anton", sans-serif;
+  font-size: 350%;
 }
 
-.intro{
-    font-size: 180%
+.intro {
+  font-size: 180%;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 /*End of Header/Hero Area*/

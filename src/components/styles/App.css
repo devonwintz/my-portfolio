@@ -16,13 +16,31 @@ body {
   background-size: cover;
   background-color: #f8f8ff;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
   font-size: 125%;
   overflow: hidden;
   height: 100vh;
 }
 
+.header .navbar-brand {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold;
+  color: red;
+}
+
 .hero-text {
-  margin-top: 10%;
+  margin-top: 5%;
   color: #ffffff;
 }
 
@@ -132,13 +150,25 @@ hr {
 }
 
 /*End of Footer*/
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   /*Header*/
   .header .full-height {
     height: 65vh;
   }
   .header .full-height {
     font-size: 115%;
+  }
+  .hero-text .my-name {
+    font-size: 250%;
+  }
+  .navbar .navbar-brand {
+    font-size: 170%;
+  }
+  .navbar-nav {
+    background-color: rgba(28, 35, 49, 0.7);
+  }
+  .hero-text {
+    margin-top: 18%;
   }
   /*End of Header*/
   /*Main Content (Body)*/
@@ -176,7 +206,7 @@ hr {
   /*End of Main Content*/
   /*Footer*/
   .social-media-links img {
-    width: 8%;
+    width: 7%;
     margin: 5%;
   }
   .container-fluid .footer {

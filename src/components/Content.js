@@ -15,6 +15,7 @@ import nders from "./images/projects/Nders.png";
 import ollos from "./images/projects/Ollo.png";
 
 const Content = (props) => {
+  //Graphics Design Array
   let graphicProjectImageArr = [
     <GraphicsProjectImage
       src={nwisi}
@@ -38,6 +39,7 @@ const Content = (props) => {
     />,
   ];
 
+  //Website Design & Development Array
   let webProjectImgArr = [
     <WebProjectImage
       src={esi}
@@ -56,6 +58,7 @@ const Content = (props) => {
     />,
   ];
 
+  //Type of Work Array
   const workTypes = [
     "Custom Websites & WordPress Themes",
     "Flyers & Business Cards Designs",
@@ -73,7 +76,7 @@ const Content = (props) => {
           </div>
         </div>
         <div className="col-md-6 mt-3 content">
-          I am Devon Wintz, a Front-end Web Developer and UI/UX enthusiast from
+          I am Devon Wintz, a Full-stack Developer and UI/UX enthusiast from
           Georgetown, Guyana. I create custom websites to help businesses and
           individuals do better online. I primarily use JavaScript and its
           associated libriaries and frameworks such as Vue, React, jQuery, etc,

@@ -1,9 +1,10 @@
 import React from "react";
-/*import Navbar from "./Navbar";*/
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="container-fluid header">
+    <header className="container-fluid header algin-self-center">
+      <Navbar />
       <div className="row hero-text">
         <div className="col-md-12 mt-5 intro">Hey, there</div>
         <div className="col-md-12 intro">I'm</div>
@@ -17,7 +18,7 @@ const Header = () => {
           ></span>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

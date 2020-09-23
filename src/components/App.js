@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div className="">
+        <div>
           <Header />
           <Content />
           <Footer />
