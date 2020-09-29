@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import "./script";
 import Header from "./Header";
 import Content from "./Content";
@@ -15,10 +15,6 @@ function App() {
           <Content />
           <Footer />
         </div>
-
-        <Switch>
-          <Route path="/wp-templates" component={Footer}/>
-        </Switch>
       </Router>
     </div>
   );
