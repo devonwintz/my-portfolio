@@ -1,3 +1,2 @@
 ### My Porfolio
-Visit my Personal portfolio that will help you Know me and my work in a more efficient way.
-https://devonwintz.github.io/my-portfolio/
+Visit my personal portfolio to learn more about me and what I do - https://devonwintz.github.io/my-portfolio/
