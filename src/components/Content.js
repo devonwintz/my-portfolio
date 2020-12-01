@@ -91,12 +91,12 @@ const Content = (props) => {
           <br />
           <button className="btn mt-5" style={{ borderColor: "#1c2331" }}>
             <a
-              href="https://drive.google.com/file/d/1LzVi4Vxggev6NDZ3baTptDu6gnPxH1cf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1LKIotIyjlfzhn4fiBg7wiO93Hx-IZ_dH/view?usp=sharing"
               download
               rel="noopener noreferrer"
               target="_blank"
             >
-              Download My Resume
+              Download My CV
             </a>
           </button>
         </div>
