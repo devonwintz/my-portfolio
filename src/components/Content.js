@@ -108,7 +108,7 @@ const Content = (props) => {
             quality websites and expectional user experience.
           </span>
           <br />
-          <button className="btn mt-5" style={{ borderColor: "#1c2331" }}>
+          {/* <button className="btn mt-5" style={{ borderColor: "#1c2331" }}>
             <a
               href="https://drive.google.com/file/d/1LKIotIyjlfzhn4fiBg7wiO93Hx-IZ_dH/view?usp=sharing"
               download
@@ -117,7 +117,7 @@ const Content = (props) => {
             >
               Download My CV
             </a>
-          </button>
+          </button> */}
         </div>
         <div className="col-md-6 about-me-progress mt-3">
           <div className="skills mt-4">
@@ -278,7 +278,7 @@ const Content = (props) => {
             className="mb-5"
             style={{ textAlign: "center", fontStyle: "italic" }}
           >
-            Click on the two options below to view some of my work.
+            Click the two options below to view some of my work.
           </div>
         </div>
 
