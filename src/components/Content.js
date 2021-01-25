@@ -278,7 +278,7 @@ const Content = (props) => {
             className="mb-5"
             style={{ textAlign: "center", fontStyle: "italic" }}
           >
-            Click on the two options below to view some of my work.
+            Click the two options below to view some of my work.
           </div>
         </div>
 
