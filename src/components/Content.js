@@ -9,32 +9,50 @@ import esi from "./images/projects/rsz_esi-laptop.png";
 import businessWebsiteTemplate from "./images/projects/Simple-Business-Website-Template-New.png";
 import devdynamics from "./images/projects/Coming Soon.png";
 //---Graphics Design Images---
-import nwisi from "./images/projects/North West Investments Security Inc.png";
+import sampleBusinessDesign from "./images/projects/sample-business-design.png";
 import tr from "./images/projects/true-radiance.png";
 import nders from "./images/projects/Nders.png";
 import ollos from "./images/projects/Ollo.png";
+import esiDesign from "./images/projects/esi-design.jpg";
+import nwisFlyer from "./images/projects/nwis-flyer.jpg";
+import beats from "./images/projects/beats-design.jpg";
 
 const Content = (props) => {
   //Graphics Design Array
   let graphicProjectImageArr = [
     <GraphicsProjectImage
-      src={nwisi}
-      url="https://drive.google.com/uc?id=1nROYrcMp6J4cv4hogTMAPfbaitGabhju"
+      src={beats}
+      url="https://drive.google.com/file/d/1kO7H3EV0jhLRkBXUvBGajQbjezA3djNA/preview"
+      title="Sample Business Website (Landing Page)"
+    />,
+    <GraphicsProjectImage
+      src={esiDesign}
+      url="https://drive.google.com/file/d/1D2M7yNYeqt4NLnLziv1AgXW17TOvCfiY/preview"
+      title="Eco Solutions Furniture Inc. (Landing Page)"
+    />,
+    <GraphicsProjectImage
+      src={sampleBusinessDesign}
+      url="https://drive.google.com/file/d/17AipQN0hNzJk-w52wowZC9mZVzyUefrK/preview"
+      title="Sample Business Website. (Landing Page)"
+    />,
+    <GraphicsProjectImage
+      src={nwisFlyer}
+      url="https://drive.google.com/file/d/15QR5fnmUZeBR0z55ZAY09tI1otdNrOEY/preview"
       title="North West Investments Security Inc. (Flyer)"
     />,
     <GraphicsProjectImage
       src={nders}
-      url="https://drive.google.com/uc?id=1PGMgAs2-VBaDVVBN5iX7r1hvyYQmlZdx"
+      url="https://drive.google.com/file/d/1PGMgAs2-VBaDVVBN5iX7r1hvyYQmlZdx/preview"
       title="NDERS (Logo)"
     />,
     <GraphicsProjectImage
       src={tr}
-      url="https://drive.google.com/uc?id=1kydlM-wgCbssIak-3e9n2CnNWKNL43Y1"
+      url="https://drive.google.com/file/d/1kydlM-wgCbssIak-3e9n2CnNWKNL43Y1/preview"
       title="True Radiance: Makeup Artist (Business Card)"
     />,
     <GraphicsProjectImage
       src={ollos}
-      url="Ollo's Barbershop (Business Card)"
+      url="https://drive.google.com/file/d/1iCkAYXjl3p4hphcaSHK2Rki3o4XyWxn8/preview"
       title="Ollo's Barbershop (Business Card)"
     />,
   ];
@@ -46,11 +64,11 @@ const Content = (props) => {
       url="https://ecosolutionsfurniture.com"
       title="Eco-Solutions Furniture Inc."
     />,
-    <WebProjectImage
-      src={businessWebsiteTemplate}
-      url="https://devonwintz.github.io/simple-business-website-template/"
-      title="Simple Business Website Template"
-    />,
+    // <WebProjectImage
+    //   src={businessWebsiteTemplate}
+    //   url="https://devonwintz.github.io/simple-business-website-template/"
+    //   title="Simple Business Website Template"
+    // />,
     <WebProjectImage
       src={devdynamics}
       url="/#"
@@ -76,11 +94,12 @@ const Content = (props) => {
           </div>
         </div>
         <div className="col-md-6 mt-3 content">
-          I am Devon Wintz, a Full-stack Developer and UI/UX enthusiast from
-          Georgetown, Guyana. I create custom websites to help businesses and
-          individuals do better online. I primarily use JavaScript and its
-          associated libriaries and frameworks such as Vue, React, jQuery, etc,
-          but picking up a new framework or language is not a problem.
+          I am Devon Wintz, a Full-stack Developer and UI/UX Designer and
+          enthusiast from Georgetown, Guyana. I create custom websites to help
+          businesses and individuals do better online. I primarily use
+          JavaScript and its associated libriaries and frameworks such as Vue,
+          React, jQuery, etc, but picking up a new framework or language is not
+          a problem.
           <br />
           <br />
           <span style={{ fontWeight: "bold" }}>Goal: </span>
@@ -141,7 +160,25 @@ const Content = (props) => {
             </div>
           </div>
 
-          <span>JavaScript/ReactJs/VueJS</span>
+          <span>JavaScript/React</span>
+          <div className="progress mb-2" style={{ textAlign: "center" }}>
+            <div
+              className="progress-bar"
+              role="progressbar"
+              style={{
+                width: "70%",
+                fontSize: "100%",
+                backgroundColor: "#1c2331",
+              }}
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              70%
+            </div>
+          </div>
+
+          <span>React</span>
           <div className="progress mb-2" style={{ textAlign: "center" }}>
             <div
               className="progress-bar"
@@ -159,7 +196,25 @@ const Content = (props) => {
             </div>
           </div>
 
-          <span>WordPress/Drupal/Joomla</span>
+          <span>Ionic</span>
+          <div className="progress mb-2" style={{ textAlign: "center" }}>
+            <div
+              className="progress-bar"
+              role="progressbar"
+              style={{
+                width: "60%",
+                fontSize: "100%",
+                backgroundColor: "#1c2331",
+              }}
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              60%
+            </div>
+          </div>
+
+          <span>WordPress</span>
           <div className="progress mb-2" style={{ textAlign: "center" }}>
             <div
               className="progress-bar"
@@ -182,7 +237,7 @@ const Content = (props) => {
               className="progress-bar"
               role="progressbar"
               style={{
-                width: "50%",
+                width: "70%",
                 fontSize: "100%",
                 backgroundColor: "#1c2331",
               }}
@@ -190,7 +245,24 @@ const Content = (props) => {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              50%
+              70%
+            </div>
+          </div>
+          <span>Figma</span>
+          <div className="progress mb-2" style={{ textAlign: "center" }}>
+            <div
+              className="progress-bar"
+              role="progressbar"
+              style={{
+                width: "80%",
+                fontSize: "100%",
+                backgroundColor: "#1c2331",
+              }}
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              80%
             </div>
           </div>
         </div>
@@ -239,7 +311,7 @@ const Content = (props) => {
                   </span>
                   <br />{" "}
                   <span style={{ fontSize: "85%" }} className="workTypeDetails">
-                    Logo, Flyer/Poster & Business Card Designs
+                    Logo, Flyer/Poster, Website & Business Card Designs
                   </span>
                 </div>
               )}
