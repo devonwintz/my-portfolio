@@ -1,34 +1,34 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.63f9025e.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.11d66222.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.11d66222.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.13b1a7ea.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.b71bab5c.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.b71bab5c.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
-    "static/js/2.4cec64bb.chunk.js": "/my-portfolio/static/js/2.4cec64bb.chunk.js",
-    "static/js/2.4cec64bb.chunk.js.map": "/my-portfolio/static/js/2.4cec64bb.chunk.js.map",
+    "static/js/2.525e5921.chunk.js": "/my-portfolio/static/js/2.525e5921.chunk.js",
+    "static/js/2.525e5921.chunk.js.map": "/my-portfolio/static/js/2.525e5921.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.52e200e295517895bb071d13668d64a7.js": "/my-portfolio/precache-manifest.52e200e295517895bb071d13668d64a7.js",
+    "precache-manifest.63207d2c8861abdb209fda81a39be5b8.js": "/my-portfolio/precache-manifest.63207d2c8861abdb209fda81a39be5b8.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.63f9025e.chunk.css.map": "/my-portfolio/static/css/main.63f9025e.chunk.css.map",
-    "static/js/2.4cec64bb.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.4cec64bb.chunk.js.LICENSE.txt",
+    "static/css/main.13b1a7ea.chunk.css.map": "/my-portfolio/static/css/main.13b1a7ea.chunk.css.map",
+    "static/js/2.525e5921.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.525e5921.chunk.js.LICENSE.txt",
     "static/media/Coming Soon.png": "/my-portfolio/static/media/Coming Soon.0aaca945.png",
     "static/media/Nders.png": "/my-portfolio/static/media/Nders.260fcd70.png",
     "static/media/Ollo.png": "/my-portfolio/static/media/Ollo.504a890a.png",
     "static/media/Simple-Business-Website-Template-New.png": "/my-portfolio/static/media/Simple-Business-Website-Template-New.728248a7.png",
     "static/media/beats-design.jpg": "/my-portfolio/static/media/beats-design.7a8dd78c.jpg",
-    "static/media/esi-design.jpg": "/my-portfolio/static/media/esi-design.6df07645.jpg",
+    "static/media/esi-design.jpg": "/my-portfolio/static/media/esi-design.96b0aec6.jpg",
     "static/media/github-icon.png": "/my-portfolio/static/media/github-icon.ae646a94.png",
     "static/media/App.css": "/my-portfolio/static/media/hero-img-mobile-screen.d6016f62.png",
     "static/media/nwis-flyer.jpg": "/my-portfolio/static/media/nwis-flyer.5955c51e.jpg",
     "static/media/rsz_esi-laptop.png": "/my-portfolio/static/media/rsz_esi-laptop.17d095ff.png",
-    "static/media/sample-business-design.png": "/my-portfolio/static/media/sample-business-design.eb745598.png",
+    "static/media/sample-business-design.png": "/my-portfolio/static/media/sample-business-design.41bb499b.png",
     "static/media/true-radiance.png": "/my-portfolio/static/media/true-radiance.faeb4d14.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8b00eace.js",
-    "static/js/2.4cec64bb.chunk.js",
-    "static/css/main.63f9025e.chunk.css",
-    "static/js/main.11d66222.chunk.js"
+    "static/js/2.525e5921.chunk.js",
+    "static/css/main.13b1a7ea.chunk.css",
+    "static/js/main.b71bab5c.chunk.js"
   ]
 }

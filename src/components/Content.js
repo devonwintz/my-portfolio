@@ -84,6 +84,9 @@ const Content = (props) => {
   const [myWorkType, setMyWorkType] = useState("");
   const [showDiv, setShowDiv] = useState(true);
 
+  const [active, setActive] = useState("active");
+  const [inActive, setInActive] = useState("");
+
   return (
     <div className="container content">
       <div className="row about-me-content" id="about-me">
@@ -94,7 +97,7 @@ const Content = (props) => {
           </div>
         </div>
         <div className="col-md-6 mt-3 content">
-          I am Devon Wintz, a Full-stack Developer and UI/UX Designer and
+          I am Devon Wintz, a Website & Mobile App Developer and UI/UX
           enthusiast from Georgetown, Guyana. I create custom websites to help
           businesses and individuals do better online. I primarily use
           JavaScript and its associated libriaries and frameworks such as Vue,
@@ -294,7 +297,13 @@ const Content = (props) => {
               }}
             >
               {workType === "Custom Websites & WordPress Themes" && (
-                <div>
+                <div
+                  className={active}
+                  onClick={() => {
+                    setActive("active");
+                    setInActive("");
+                  }}
+                >
                   <span style={{ fontWeight: "bold" }} className="workType">
                     Website Development
                   </span>
@@ -305,7 +314,13 @@ const Content = (props) => {
                 </div>
               )}
               {workType === "Flyers & Business Cards Designs" && (
-                <div>
+                <div
+                  className={inActive}
+                  onClick={() => {
+                    setActive("");
+                    setInActive("active");
+                  }}
+                >
                   <span style={{ fontWeight: "bold" }} className="workType">
                     Graphics Designs
                   </span>

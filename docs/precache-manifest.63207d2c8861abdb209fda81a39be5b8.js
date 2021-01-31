@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1c7622043e5e284569cad35fe336d8f",
+    "revision": "f899629e37bae96b8289c83a585ac847",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "58420743760ae4aa136c",
-    "url": "/my-portfolio/static/css/main.63f9025e.chunk.css"
+    "revision": "8baea43627179c4efd58",
+    "url": "/my-portfolio/static/css/main.13b1a7ea.chunk.css"
   },
   {
-    "revision": "7fd4620c33ee3d08bef4",
-    "url": "/my-portfolio/static/js/2.4cec64bb.chunk.js"
+    "revision": "cedc0b6e9db754303a84",
+    "url": "/my-portfolio/static/js/2.525e5921.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/my-portfolio/static/js/2.4cec64bb.chunk.js.LICENSE.txt"
+    "url": "/my-portfolio/static/js/2.525e5921.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58420743760ae4aa136c",
-    "url": "/my-portfolio/static/js/main.11d66222.chunk.js"
+    "revision": "8baea43627179c4efd58",
+    "url": "/my-portfolio/static/js/main.b71bab5c.chunk.js"
   },
   {
     "revision": "f241adf7bba56ceeeb82",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/beats-design.7a8dd78c.jpg"
   },
   {
-    "revision": "6df07645c2c81e60946927d5fb4156f8",
-    "url": "/my-portfolio/static/media/esi-design.6df07645.jpg"
+    "revision": "96b0aec691aca9f8cd95da50c6500b92",
+    "url": "/my-portfolio/static/media/esi-design.96b0aec6.jpg"
   },
   {
     "revision": "ae646a942e2eabffb10823a0c325d272",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/rsz_esi-laptop.17d095ff.png"
   },
   {
-    "revision": "eb7455984fb4e801aa0ea445d4f936a8",
-    "url": "/my-portfolio/static/media/sample-business-design.eb745598.png"
+    "revision": "41bb499bcb3b3245116e90c3c4dc8d0c",
+    "url": "/my-portfolio/static/media/sample-business-design.41bb499b.png"
   },
   {
     "revision": "faeb4d1468e050a107aa0250fd1ee67d",

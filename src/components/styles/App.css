@@ -78,6 +78,11 @@ body {
   text-decoration: none;
 }
 
+.active {
+  color: #ffffff !important;
+  background-color: #1c2331;
+}
+
 .active a:hover,
 .btn:hover a:hover {
   color: #ffffff;
