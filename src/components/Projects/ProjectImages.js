@@ -5,7 +5,11 @@ const ProjectImages = ({ src, url, title }) => {
     <figure style={{ textAlign: "center" }}>
       <a href={url} rel="noopener noreferrer" target="_blank">
         <img
-          style={{ border: "1px solid #A8A8A8", marginBottom: "2%" }}
+          style={{
+            border: "1px solid #ececec",
+            marginBottom: "2%",
+            boxShadow: "10px 5px 8px #888888",
+          }}
           src={src}
           alt="project"
           width="80%"
